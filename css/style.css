@@ -103,6 +103,9 @@ h1, h2, h3{
 .nav-bg{
     background-color: var(--secundario);
 }
+.nav{
+    margin-bottom: 2rem;
+}
 .navegacion-principal{
     /* padding: 1rem; */
     display: flex;
@@ -258,4 +261,35 @@ h1, h2, h3{
 /* footer */
 .footer{
     text-align: center;
+}
+
+/* BIOGRFIA */
+.biografia{
+    line-height: 2;
+    font-weight: normal;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subti{
+    color: var(--primario);
+    font-size: 3rem;
+}
+.cont_img{
+    max-width: 35rem;
+    max-height: 35rem;
+    background-color: var(--grisClaro);
+    padding: 1rem;
+    margin: 1rem;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3fr;
 }
